@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Chaos Engineering Security Tool banner">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/></pattern><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1220"/><stop offset="100%" stop-color="#070B14"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)"/>
+<rect x="0" y="0" width="1200" height="6" fill="#C084FC"/>
+<rect x="0" y="354" width="1200" height="6" fill="#C084FC"/>
+<text x="60" y="92" fill="#C084FC" font-family="Consolas,Monaco,monospace" font-size="22" letter-spacing="6" opacity="0.9">INTERMEDIATE / 12</text>
+<text x="60" y="176" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Chaos Engineering Security Tool</text>
+<rect x="60" y="206" width="120" height="4" fill="#9333EA"/>
+<text x="60" y="252" fill="#94A3B8" font-family="Consolas,Monaco,monospace" font-size="18">cybersecurity-projects / intermediate</text>
+<rect x="600" y="20" width="2" height="320" fill="#C084FC" opacity="0.18"/>
+<g transform="translate(900 180)" fill="none" stroke="#C084FC" stroke-width="2" opacity="0.92"><polyline points="-110,-72 -105,-1 -100,-8 -95,-18 -90,4 -85,-14 -80,-15 -75,-83 -70,-14 -65,-15 -60,3 -55,-27 -50,-26 -45,2 -40,-4 -35,-20 -30,6 -25,-21 -20,6 -15,-24 -10,2 -5,-6 0,-20 5,-9 10,-14 15,0 20,-17 25,-6 30,7 35,4 40,-11 45,-24 50,-3 55,-14 60,-24 65,28 70,-14 75,-15 80,-23 85,0 90,1 95,7 100,-23 105,-12 110,5" stroke="#C084FC" opacity="0.85"/><path d="M-110 0H110" stroke="#9333EA" opacity="0.35" stroke-dasharray="6 6"/></g>
+</svg>

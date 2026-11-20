@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Keylogger banner">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.45"/></pattern><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B1220"/><stop offset="100%" stop-color="#070B14"/></linearGradient><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)"/>
+<rect x="0" y="0" width="1200" height="6" fill="#60A5FA"/>
+<rect x="0" y="354" width="1200" height="6" fill="#60A5FA"/>
+<text x="60" y="92" fill="#60A5FA" font-family="Consolas,Monaco,monospace" font-size="22" letter-spacing="6" opacity="0.9">BEGINNER / 02</text>
+<text x="60" y="176" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="52" font-weight="700">Keylogger</text>
+<rect x="60" y="206" width="120" height="4" fill="#2563EB"/>
+<text x="60" y="252" fill="#94A3B8" font-family="Consolas,Monaco,monospace" font-size="18">cybersecurity-projects / beginner</text>
+<rect x="600" y="20" width="2" height="320" fill="#60A5FA" opacity="0.18"/>
+<g transform="translate(900 180)" fill="none" stroke="#60A5FA" stroke-width="2" opacity="0.92"><polyline points="-110,0 -105,-16 -100,-14 -95,-23 -90,-1 -85,-12 -80,-5 -75,18 -70,-15 -65,-26 -60,-13 -55,-23 -50,1 -45,-17 -40,-59 -35,-5 -30,-16 -25,-25 -20,-20 -15,-21 -10,2 -5,57 0,-7 5,-24 10,-27 15,-1 20,-3 25,2 30,6 35,-26 40,-14 45,-10 50,2 55,-8 60,-3 65,-40 70,7 75,-12 80,-8 85,-16 90,-8 95,-17 100,-80 105,-5 110,-14" stroke="#60A5FA" opacity="0.85"/><path d="M-110 0H110" stroke="#2563EB" opacity="0.35" stroke-dasharray="6 6"/></g>
+</svg>
