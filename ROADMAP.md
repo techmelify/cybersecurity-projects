@@ -72,12 +72,12 @@ Built in order. `S` = reference source exists upstream, `◇` = synopsis only. T
 - [x] 10 Zero Day Vulnerability Scanner (Rust/C → Python defensive substitution) `S` — 14 tests passing
 - [x] 11 Distributed Password Cracker (C++/CUDA → Python simulation) `◇` — 15 tests passing
 - [x] 12 Kernel Rootkit Detection (Rust → Python substitution) `◇` — 14 tests passing
-- [ ] 13 Blockchain Smart Contract Auditor (Python/Solidity) `◇`
-- [ ] 14 Adversarial ML Attacker (Python/TensorFlow) `◇`
-- [ ] 15 Reverse-Engineering Platform (C) `S`
-- [ ] 16 Hardware Security Module Emulator (Zig) `S`
-- [ ] 17 Network Covert Channel (Rust) `◇`
-- [ ] 18 Automated Penetration Testing (Python) `◇`
+- [x] 13 Blockchain Smart Contract Auditor (Python static analyzer) `◇` — 9 tests passing
+- [x] 14 Adversarial ML Detector (Python, defensive substitution) `◇` — 10 tests passing
+- [x] 15 Reverse-Engineering Platform (C → Python substitution) `S` — 10 tests passing
+- [x] 16 Hardware Security Module Emulator (Zig → Python substitution) `S` — 10 tests passing
+- [x] 17 Network Covert Channel Detector (Rust → Python, defensive substitution) `◇` — 10 tests passing
+- [x] 18 Automated Penetration Testing Planner (Python, defensive lab planner) `◇` — 10 tests passing
 - [x] 19 Haskell Reverse Proxy (Python route-evaluator substitution) `S` — 9 tests passing
 - [x] 20 "Monitor the Situation" Dashboard (Go/React → Python CLI substitution) `S` — 9 tests passing
 - [x] 21 Honeypot Network (Go/React/Docker → Python simulator) `S` — 10 tests passing
