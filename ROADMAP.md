@@ -34,29 +34,29 @@ Built in order. `S` = reference source exists upstream, `◇` = synopsis only. T
 
 ## Intermediate (23)
 
-- [ ] 01 Security News Scraper (Go) `S`
-- [ ] 02 Payload Obfuscation Engine (Go) `◇`
-- [ ] 03 SIEM Dashboard (Flask/React) `S`
-- [ ] 04 Token Abuse Playground (FastAPI/React) `◇`
-- [ ] 05 Supply Chain Attack Simulator (Python) `◇`
-- [ ] 06 DDoS Mitigation Tool (Go) `◇`
-- [ ] 07 Secrets Scanner (Go) `S`
-- [ ] 08 API Security Scanner (FastAPI/React) `S`
-- [ ] 09 Wireless Deauth Detector (Rust) `◇`
-- [ ] 10 Credential Enumeration (Nim) `S`
-- [ ] 11 Binary Analysis Tool (Rust) `S`
-- [ ] 12 Chaos Engineering Security Tool (Go) `S`
+- [x] 01 Security News Scraper (Go → Python substitution) `S` — 21 tests passing
+- [x] 02 Payload Obfuscation Detector (Go → Python defensive substitution) `◇` — 21 tests passing
+- [x] 03 SIEM Dashboard (Flask/React → Python CLI substitution) `S` — 21 tests passing
+- [x] 04 Token Abuse Playground (FastAPI/React → Python parse-only substitution) `◇` — 27 tests passing
+- [x] 05 Supply Chain Attack Simulator (Python, defensive analyzer) `◇` — 24 tests passing
+- [x] 06 DDoS Mitigation Tool (Go → Python offline simulation) `◇` — 22 tests passing
+- [x] 07 Secrets Scanner (Go → Python substitution) `S` — 13 tests passing
+- [x] 08 API Security Scanner (FastAPI/React → Python CLI substitution) `S` — 14 tests passing
+- [x] 09 Wireless Deauth Detector (Rust → Python substitution) `◇` — 13 tests passing
+- [x] 10 Credential Enumeration Detector (Nim → Python defensive substitution) `S` — 14 tests passing
+- [x] 11 Binary Analysis Tool (Rust → Python substitution) `S` — 15 tests passing
+- [x] 12 Chaos Engineering Security Tool (Go → Python simulation) `S` — 17 tests passing
 - [x] 13 Credential Rotation Enforcer (Crystal → Python substitution) `S` — 9 tests passing
 - [x] 14 Race Condition Detector (Python, defensive substitution) `◇` — 10 tests passing
 - [x] 15 JA3/JA4 TLS Fingerprinting Tool (Rust → Python substitution) `S` — 9 tests passing
 - [x] 16 Mobile App Security Analyzer (Python) `◇` — 9 tests passing
 - [x] 17 DLP Scanner (Python) `S` — 11 tests passing
 - [x] 18 Lua/Nginx Edge Backend (Python rule-engine substitution) `◇` — 9 tests passing
-- [ ] 19 Privesc Playground (Python) `◇`
-- [ ] 20 SBOM Generator & Vulnerability Matcher (Go) `S`
-- [ ] 21 Subdomain Takeover Scanner (Go) `◇`
-- [ ] 22 GraphQL Security Tester (Python) `◇`
-- [ ] 23 Docker Security Audit (Go) `S`
+- [x] 19 Privesc Indicator Auditor (Python, defensive substitution) `◇` — 7 tests passing
+- [x] 20 SBOM Generator & Vulnerability Matcher (Go → Python substitution) `S` — 7 tests passing
+- [x] 21 Subdomain Takeover Scanner (Go → Python, snapshot-only) `◇` — 7 tests passing
+- [x] 22 GraphQL Security Tester (Python, offline analyzer) `◇` — 8 tests passing
+- [x] 23 Docker Security Audit (Go → Python substitution) `S` — 8 tests passing
 
 ## Advanced (22)
 
@@ -66,12 +66,12 @@ Built in order. `S` = reference source exists upstream, `◇` = synopsis only. T
 - [x] 04 AI Threat Detection (Python statistical substitution) `S` — 16 tests passing
 - [x] 05 Zingela Stateless Scanner (Zig → Python substitution) `S` — 14 tests passing
 - [x] 06 Bug Bounty Platform (FastAPI/React → Python CLI substitution) `S` — 13 tests passing
-- [ ] 07 Cloud Security Compliance Dashboard (Go/React) `◇`
-- [ ] 08 Malware Analysis Platform (Rust/Docker) `◇`
-- [ ] 09 Quantum Resistant Encryption (Python) `◇`
-- [ ] 10 Zero Day Vulnerability Scanner (Rust/C) `S`
-- [ ] 11 Distributed Password Cracker (C++/CUDA) `◇`
-- [ ] 12 Kernel Rootkit Detection (Rust) `◇`
+- [x] 07 Cloud Security Compliance Dashboard (Go/React → Python CLI substitution) `◇` — 16 tests passing
+- [x] 08 Malware Analysis Platform (Rust/Docker → Python static analyzer) `◇` — 15 tests passing
+- [x] 09 Quantum Resistant Encryption (Python, toy Lamport OTS) `◇` — 17 tests passing
+- [x] 10 Zero Day Vulnerability Scanner (Rust/C → Python defensive substitution) `S` — 14 tests passing
+- [x] 11 Distributed Password Cracker (C++/CUDA → Python simulation) `◇` — 15 tests passing
+- [x] 12 Kernel Rootkit Detection (Rust → Python substitution) `◇` — 14 tests passing
 - [ ] 13 Blockchain Smart Contract Auditor (Python/Solidity) `◇`
 - [ ] 14 Adversarial ML Attacker (Python/TensorFlow) `◇`
 - [ ] 15 Reverse-Engineering Platform (C) `S`
