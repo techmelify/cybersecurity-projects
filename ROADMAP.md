@@ -15,22 +15,22 @@ Built in order. `S` = reference source exists upstream, `◇` = synopsis only. T
 - [x] 03 Caesar Cipher (Python) `S` — 12 tests passing
 - [x] 04 DNS Lookup CLI Tool (Python) `S` — 8 tests passing
 - [x] 05 Simple Vulnerability Scanner (Go → Python substitution) `S` — 8 tests passing
-- [ ] 06 Network Traffic Analyzer (C++ / Python) `S`
-- [ ] 07 Hash Cracker (C++) `S`
-- [ ] 08 Steganography Multi-Tool (Go) `S`
-- [ ] 09 Deserialization Gadget Lab (Ruby) `S`
-- [ ] 10 Canary Token Generator (Go/React) `S`
-- [ ] 11 Phishing Domain Generator & Quishing Scanner (Python) `◇`
-- [ ] 12 SSH Brute Force Detector (Python) `◇`
-- [ ] 13 Simple C2 Beacon (Python/React) `S`
-- [ ] 14 Base64 Encoder/Decoder (Python) `S`
-- [ ] 15 Linux CIS Hardening Auditor (Bash) `S`
-- [ ] 16 Systemd Persistence Scanner (Go) `S`
-- [ ] 17 Linux eBPF Security Tracer (Python/C) `S`
-- [ ] 18 Trojan Application Builder (Python) `◇`
-- [ ] 19 DNS Sinkhole (Go) `◇`
-- [ ] 20 Firewall Rule Engine (V) `S`
-- [ ] 21 LLM Prompt Injection Firewall (Python) `S`
+- [x] 06 Network Traffic Analyzer (C++ / Python → Python substitution) `S` — 6 tests passing
+- [x] 07 Hash Cracker (C++ → Python substitution) `S` — 10 tests passing
+- [x] 08 Steganography Multi-Tool (Go → Python substitution) `S` — 9 tests passing
+- [x] 09 Deserialization Gadget Lab (Ruby → Python substitution) `S` — 5 tests passing
+- [x] 10 Canary Token Generator (Go/React → Python CLI substitution) `S` — 7 tests passing
+- [x] 11 Phishing Domain Detector & Quishing Scanner (Python, defensive-only) `◇` — 9 tests passing
+- [x] 12 SSH Brute Force Detector (Python) `◇` — 8 tests passing
+- [x] 13 Simple C2 Beacon (Python, offline simulator/detector) `S` — 7 tests passing
+- [x] 14 Base64 Encoder/Decoder (Python) `S` — 6 tests passing
+- [x] 15 Linux CIS Hardening Auditor (Bash → Python substitution) `S` — 5 tests passing
+- [x] 16 Systemd Persistence Scanner (Go → Python substitution) `S` — 6 tests passing
+- [x] 17 Linux eBPF Security Tracer (Python, offline event analyzer) `S` — 7 tests passing
+- [x] 18 Trojan Application Detector (Python, defensive substitution) `◇` — 6 tests passing
+- [x] 19 DNS Sinkhole (Go → Python substitution) `◇` — 6 tests passing
+- [x] 20 Firewall Rule Engine (V → Python substitution) `S` — 7 tests passing
+- [x] 21 LLM Prompt Injection Firewall (Python) `S` — 7 tests passing
 
 ## Intermediate (23)
 
