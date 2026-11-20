@@ -1,0 +1,32 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: python -m pip install "cryptography>=45"
+      - name: Run all project test suites
+        shell: bash
+        run: |
+          set -e
+          status=0
+          for d in $(find . -type d -name tests | sort); do
+            project=$(dirname "$d")
+            echo "=== $project ==="
+            (cd "$project" && python -m unittest discover -s tests -v) || status=1
+          done
+          exit $status
